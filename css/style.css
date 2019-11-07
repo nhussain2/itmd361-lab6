@@ -7,17 +7,20 @@
 	list-style-type: none;
 	margin: auto;
 	padding: 0;
+}
+
+#navbar-container{
 	position: relative;
 	left: 50%;
 	float: left;
+	display: block;
 	right: 50%;
-	display: inline-block;
 	padding-right: 10px 20px;
 	color: #fff;
 	text-decoration: none;
 	background-color: #000;
 	text-decoration: underline overline;
-
+	padding: 15px;
 }
 
 #sidebar {
@@ -27,6 +30,9 @@
 	height: 100%;
 	width:20%;
 	list-style-type: none;
+
+}
+#sidebar-container{
 	text-align: center;
 	padding:0;
 	display: block;
