@@ -5,14 +5,13 @@
 	width: 100%;
 	position: relative;
 	list-style-type: none;
-	margin: 0;
+	margin: auto;
 	padding: 0;
 	position: relative;
 	left: 50%;
 	float: left;
-	position: relative;
 	right: 50%;
-	display: block;
+	display: inline-block;
 	padding-right: 10px 20px;
 	color: #fff;
 	text-decoration: none;
