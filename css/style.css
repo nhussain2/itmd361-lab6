@@ -10,18 +10,30 @@
 }
 
 #navbar-container{
-	position: relative;
 	left: 50%;
 	float: left;
-	display: block;
 	right: 50%;
-	padding-right: 10px 20px;
+	color: #fff;
+	padding: 15px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#navbar-container li{
+	display: inline;
+}
+
+#navbar-container a{
+	display: inline-block;
 	color: #fff;
 	text-decoration: none;
-	background-color: #000;
-	text-decoration: underline overline;
-	padding: 15px;
 }
+
+#navbar-container a:hover{
+	text-decoration: underline overline;
+	background-color: #000;
+}
+
 
 #sidebar {
 	position: fixed;
@@ -39,7 +51,12 @@
 	padding: 15px 0;
 	color:#fff;
 	text-decoration: none;
-	background-color: #000;
+}
+
+#sidebar-container a{
+	text-decoration: none;
+	color:#fff;
+	padding: 15px;
 }
 
 ul{
