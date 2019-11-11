@@ -1,75 +1,75 @@
 #main-navbar{
-	background-color: blue;
-	overflow: hidden;
+  background-color: blue;
+  overflow: hidden;
 }
 
 #navbar-container{
-	float: left;
-	width: 100%;
-	position: relative;
+  float: left;
+  width: 100%;
+  position: relative;
 }
 
 #main-navbar #onpage{
-	text-decoration: underline overline;
+  text-decoration: underline overline;
 }
 
 #navbar-container ul{
-	list-style-type: none;
-	margin:0;
-	padding: 0;
-	position: relative;
-	left: 50%;
-	float: left;
-	}
+  list-style-type: none;
+  margin:0;
+  padding: 0;
+  position: relative;
+  left: 50%;
+  float: left;
+}
 
 #navbar-container ul li{
-	float: left;
-	position: relative;
-	right: 50%;
-	display: block;
+  float: left;
+  position: relative;
+  right: 50%;
+  display: block;
 }
 
 #navbar-container ul li a{
-	display: block;
-	padding: 10px 20px;
-	text-decoration: none;
-	color:#fff;
+  display: block;
+  padding: 10px 20px;
+  text-decoration: none;
+  color:#fff;
 }
 
 #navbar-container a:hover{
-	background-color: #000;
+  background-color: #000;
 }
 
 #sidebar{
-	position: fixed;
-	background-color: red;
-	right: 0%;
-	width: 20%;
-	height: 100%;
+  position: fixed;
+  background-color: red;
+  right: 0%;
+  width: 20%;
+  height: 100%;
 }
 
 #sidebar-container ul{
-	list-style-type: none;
-	text-align: center;
-	display: block;
-	padding: 0;
+  list-style-type: none;
+  text-align: center;
+  display: block;
+  padding: 0;
 }
 
 #sidebar-container ul li{
-	display: block;
+  display: block;
 }
 
 #sidebar-container ul li a{
-	text-decoration: none;
-	padding: 15px 0;
-	color: #fff;
-	display: block;
+  text-decoration: none;
+  padding: 15px 0;
+  color: #fff;
+  display: block;
 }
 
 #sidebar-container ul li a:hover{
-	background-color: #000;
+  background-color: #000;
 }
 
 body{
-	background-color: #5A5757;
+  background-color: #5A5757;
 }
