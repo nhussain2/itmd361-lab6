@@ -7,7 +7,6 @@
 	float: left;
 	width: 100%;
 	position: relative;
-	text-align: center;
 }
 
 #main-navbar #onpage{
@@ -15,16 +14,19 @@
 }
 
 #navbar-container ul{
-	width: 100%;
 	list-style-type: none;
 	margin:0;
 	padding: 0;
-	display: inline-block;
+	position: relative;
+	left: 50%;
+	float: left;
 	}
 
 #navbar-container ul li{
 	float: left;
-	list-style-type: none;
+	position: relative;
+	right: 50%;
+	display: block;
 }
 
 #navbar-container ul li a{
@@ -36,7 +38,6 @@
 
 #navbar-container a:hover{
 	background-color: #000;
-	text-decoration: underline overline;
 }
 
 #sidebar{
@@ -67,4 +68,8 @@
 
 #sidebar-container ul li a:hover{
 	background-color: #000;
+}
+
+body{
+	background-color: #5A5757;
 }
